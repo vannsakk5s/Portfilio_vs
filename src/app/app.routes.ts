@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { ProjectComponent } from './components/project/project.component';
@@ -16,7 +15,6 @@ export const routes: Routes = [
         path: '',
         component: NavbarComponent,
         children: [
-            { path: 'home', component:  FooterComponent },
             { path: 'about', component: AboutComponent },
             { path: 'skill', component: SkillComponent },
             { path: 'project', component: ProjectComponent },
