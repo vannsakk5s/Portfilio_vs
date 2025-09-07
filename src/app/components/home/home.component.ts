@@ -4,12 +4,11 @@ import { SkillComponent } from '../skill/skill.component';
 import { ProjectComponent } from '../project/project.component';
 import { ContactComponent } from '../contact/contact.component';
 import { FirstComponent } from '../first/first.component';
-import { SkillerComponent } from '../skiller/skiller.component';
 declare const AOS: any; // Declare AOS from the global window object
 
 @Component({
   selector: 'app-home',
-  imports: [ FirstComponent, AboutComponent, SkillComponent, ProjectComponent, ContactComponent, SkillerComponent ],
+  imports: [ FirstComponent, AboutComponent, SkillComponent, ProjectComponent, ContactComponent ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
